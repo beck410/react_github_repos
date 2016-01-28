@@ -1,0 +1,35 @@
+body {
+    font-family: helvetica;
+}
+
+.repo-li {
+  width: 20%;
+  margin: 10px 2.5%;
+  background: #ddd;
+  display: inline-block;
+  text-align: center;
+}
+
+.repo-name {
+  font-size: 110%;
+  font-weight: 800;
+  padding: 5px 0;
+}
+
+.repo-li div {
+  text-align: left;
+  margin: 5px;
+}
+
+.repo-wrapper {
+  text-align: center;
+}
+
+.repo-remove {
+    padding: 1px 2px;
+    background: red;
+    font-weight: 700;
+    font-size: 120%;
+    text-align: center;
+    cursor: pointer;
+}
